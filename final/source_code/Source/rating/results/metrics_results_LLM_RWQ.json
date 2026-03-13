@@ -1,0 +1,302 @@
+[
+  {
+    "id": 1,
+    "original": "Ông ấy sinh năm bao nhiêu?",
+    "actual_rewrite": "Đại tướng Võ Nguyên Giáp sinh năm bao nhiêu?",
+    "scores": {
+      "coreference": 5,
+      "intent": 5,
+      "noise": 5,
+      "no_hallucination": 5
+    },
+    "reason": "Hoàn hảo. Thay thế 'Ông ấy' chính xác, câu ngắn gọn."
+  },
+  {
+    "id": 2,
+    "original": "Vé cáp treo lên đỉnh Fansipan giá thế nào?",
+    "actual_rewrite": "Vé cáp treo lên đỉnh Fansipan ở Sapa giá thế nào?",
+    "scores": {
+      "coreference": 4,
+      "intent": 5,
+      "noise": 4,
+      "no_hallucination": 5
+    },
+    "reason": "Tốt nhưng thiếu ngữ cảnh thời gian 'tháng 12' từ lịch sử. Cụm 'giá thế nào' chưa tối ưu bằng 'Giá vé'."
+  },
+  {
+    "id": 3,
+    "original": "Trước đó kinh đô nằm ở đâu?",
+    "actual_rewrite": "Trước khi dời đô về Thăng Long năm 1010, kinh đô của nhà Lý nằm ở đâu?",
+    "scores": {
+      "coreference": 5,
+      "intent": 5,
+      "noise": 3,
+      "no_hallucination": 5
+    },
+    "reason": "Hơi dài dòng. Cụm 'năm 1010' lặp lại từ lịch sử không cần thiết cho câu hỏi tìm kiếm."
+  },
+  {
+    "id": 4,
+    "original": "Địa chỉ quán bún bò ngon ở đó?",
+    "actual_rewrite": "Địa chỉ quán bún bò ngon ở Huế?",
+    "scores": {
+      "coreference": 5,
+      "intent": 5,
+      "noise": 5,
+      "no_hallucination": 5
+    },
+    "reason": "Thay thế 'ở đó' -> 'ở Huế' chính xác, câu gọn gàng."
+  },
+  {
+    "id": 5,
+    "original": "Thế thanh kiếm đó tên là gì?",
+    "actual_rewrite": "Thanh kiếm trong sự tích Hồ Gươm tên là gì?",
+    "scores": {
+      "coreference": 5,
+      "intent": 5,
+      "noise": 5,
+      "no_hallucination": 5
+    },
+    "reason": "Rõ ràng, đầy đủ ngữ nghĩa."
+  },
+  {
+    "id": 6,
+    "original": "So với Phú Quốc thì sao?",
+    "actual_rewrite": "So sánh biển Nha Trang với biển Phú Quốc thì sao?",
+    "scores": {
+      "coreference": 5,
+      "intent": 5,
+      "noise": 3,
+      "no_hallucination": 5
+    },
+    "reason": "Cụm từ 'thì sao?' ở cuối là văn nói (nhiễu), không tối ưu cho công cụ tìm kiếm."
+  },
+  {
+    "id": 7,
+    "original": "Đi xe máy mất bao lâu?",
+    "actual_rewrite": "Đi xe máy từ Hà Nội đến Tràng An (Ninh Bình) mất bao lâu?",
+    "scores": {
+      "coreference": 5,
+      "intent": 5,
+      "noise": 5,
+      "no_hallucination": 5
+    },
+    "reason": "Xuất sắc. Bổ sung đầy đủ lộ trình từ lịch sử."
+  },
+  {
+    "id": 8,
+    "original": "Giá vé vào cửa cho sinh viên?",
+    "actual_rewrite": "Giá vé vào cửa Hoàng thành Thăng Long cho sinh viên?",
+    "scores": {
+      "coreference": 5,
+      "intent": 5,
+      "noise": 4,
+      "no_hallucination": 5
+    },
+    "reason": "Tốt. Có thể dùng từ 'tham quan' thay cho 'vào cửa' để chuyên nghiệp hơn."
+  },
+  {
+    "id": 9,
+    "original": "Chiến thuật cọc gỗ được dùng như thế nào?",
+    "actual_rewrite": "Chiến thuật cọc gỗ trong trận Bạch Đằng năm 938 được dùng như thế nào?",
+    "scores": {
+      "coreference": 5,
+      "intent": 5,
+      "noise": 5,
+      "no_hallucination": 5
+    },
+    "reason": "Rất chi tiết và chính xác ngữ cảnh."
+  },
+  {
+    "id": 10,
+    "original": "Chỗ nào gần Hà Nội hơn?",
+    "actual_rewrite": "Tam Đảo và Đà Lạt, chỗ nào gần Hà Nội hơn?",
+    "scores": {
+      "coreference": 5,
+      "intent": 5,
+      "noise": 5,
+      "no_hallucination": 5
+    },
+    "reason": "Cấu trúc so sánh rõ ràng, đưa đủ 2 thực thể vào câu."
+  },
+  {
+    "id": 11,
+    "original": "Ý mình là resort sát biển cơ",
+    "actual_rewrite": "Tìm resort sát biển 5 sao ở Đà Nẵng.",
+    "scores": {
+      "coreference": 5,
+      "intent": 5,
+      "noise": 5,
+      "no_hallucination": 5
+    },
+    "reason": "Xử lý tốt việc sửa ý định (refinement), loại bỏ hoàn toàn các từ thừa 'Ý mình là', 'cơ'."
+  },
+  {
+    "id": 12,
+    "original": "Mùa thu Hà Nội có gì đẹp?",
+    "actual_rewrite": "Mùa thu Hà Nội có gì đẹp?",
+    "scores": {
+      "coreference": 5,
+      "intent": 5,
+      "noise": 5,
+      "no_hallucination": 5
+    },
+    "reason": "Giữ nguyên là đúng vì câu hỏi đã độc lập và đổi chủ đề (không liên quan đến Nhà Nguyễn)."
+  },
+  {
+    "id": 13,
+    "original": "Ngày xưa nó tên là gì?",
+    "actual_rewrite": "Ngày xưa Dinh Độc Lập tên là gì?",
+    "scores": {
+      "coreference": 5,
+      "intent": 5,
+      "noise": 5,
+      "no_hallucination": 5
+    },
+    "reason": "Thay thế 'nó' chính xác."
+  },
+  {
+    "id": 14,
+    "original": "Buổi tối nên làm gì?",
+    "actual_rewrite": "Buổi tối ở Hội An nên làm gì?",
+    "scores": {
+      "coreference": 5,
+      "intent": 5,
+      "noise": 5,
+      "no_hallucination": 5
+    },
+    "reason": "Bổ sung địa danh 'Hội An' chính xác."
+  },
+  {
+    "id": 15,
+    "original": "Người dân sống dưới đó như thế nào?",
+    "actual_rewrite": "Người dân sống dưới địa đạo Củ Chi như thế nào?",
+    "scores": {
+      "coreference": 5,
+      "intent": 5,
+      "noise": 4,
+      "no_hallucination": 5
+    },
+    "reason": "Tốt, nhưng thiếu cụm 'trong chiến tranh' để câu hỏi hẹp và chính xác hơn."
+  },
+  {
+    "id": 16,
+    "original": "Thế tháng nào biển êm nhất?",
+    "actual_rewrite": "Tháng nào biển ở Phú Quý êm nhất?",
+    "scores": {
+      "coreference": 5,
+      "intent": 5,
+      "noise": 5,
+      "no_hallucination": 5
+    },
+    "reason": "Loại bỏ từ 'Thế', bổ sung 'ở Phú Quý'. Rất tốt."
+  },
+  {
+    "id": 17,
+    "original": "Nó được UNESCO công nhận năm nào?",
+    "actual_rewrite": "Nhã nhạc cung đình Huế được UNESCO công nhận năm nào?",
+    "scores": {
+      "coreference": 5,
+      "intent": 5,
+      "noise": 5,
+      "no_hallucination": 5
+    },
+    "reason": "Thay thế đại từ hoàn hảo."
+  },
+  {
+    "id": 18,
+    "original": "Loại nào giá dưới 3 triệu mà bao gồm ăn uống ấy",
+    "actual_rewrite": "Loại tour du thuyền Vịnh Hạ Long nào có giá dưới 3 triệu và bao gồm ăn uống?",
+    "scores": {
+      "coreference": 5,
+      "intent": 5,
+      "noise": 3,
+      "no_hallucination": 5
+    },
+    "reason": "Câu vẫn giữ cấu trúc ngữ pháp rườm rà ('Loại...nào...và...'). Nên viết lại gọn hơn thành cụm từ khóa."
+  },
+  {
+    "id": 19,
+    "original": "Ông ấy mất năm bao nhiêu tuổi?",
+    "actual_rewrite": "Vua Quang Trung mất năm bao nhiêu tuổi?",
+    "scores": {
+      "coreference": 5,
+      "intent": 5,
+      "noise": 5,
+      "no_hallucination": 5
+    },
+    "reason": "Chính xác và ngắn gọn."
+  },
+  {
+    "id": 20,
+    "original": "Không, mình muốn hỏi về đèo Mã Pí Lèng",
+    "actual_rewrite": "Cho mình thông tin về đèo Mã Pí Lèng.",
+    "scores": {
+      "coreference": 5,
+      "intent": 5,
+      "noise": 4,
+      "no_hallucination": 5
+    },
+    "reason": "Xử lý phủ định tốt. Cụm 'Cho mình' vẫn hơi mang tính giao tiếp (noise nhẹ)."
+  },
+  {
+    "id": 21,
+    "original": "Đó là thành phố nào?",
+    "actual_rewrite": "Thành phố Hoa Phượng Đỏ là thành phố nào?",
+    "scores": {
+      "coreference": 5,
+      "intent": 5,
+      "noise": 5,
+      "no_hallucination": 5
+    },
+    "reason": "Giải quyết tham chiếu 'Đó' bằng cụm danh từ chính xác."
+  },
+  {
+    "id": 22,
+    "original": "Vị vua nào đã ra đề thi đó?",
+    "actual_rewrite": "Vị vua nào đã ra đề thi làm bánh chưng bánh giầy?",
+    "scores": {
+      "coreference": 5,
+      "intent": 5,
+      "noise": 5,
+      "no_hallucination": 5
+    },
+    "reason": "Giải thích rõ ràng 'đề thi đó' là gì."
+  },
+  {
+    "id": 23,
+    "original": "Chả cá làm từ cá gì?",
+    "actual_rewrite": "Chả cá Lã Vọng làm từ cá gì?",
+    "scores": {
+      "coreference": 5,
+      "intent": 5,
+      "noise": 5,
+      "no_hallucination": 5
+    },
+    "reason": "Bổ sung tên món ăn cụ thể 'Lã Vọng'."
+  },
+  {
+    "id": 24,
+    "original": "Nó có phải hang lớn nhất thế giới không?",
+    "actual_rewrite": "Hang Sơn Đoòng có phải hang lớn nhất thế giới không?",
+    "scores": {
+      "coreference": 5,
+      "intent": 5,
+      "noise": 4,
+      "no_hallucination": 5
+    },
+    "reason": "Thay thế đại từ tốt. Từ 'không' ở cuối câu có thể bỏ để tối ưu search keyword."
+  },
+  {
+    "id": 25,
+    "original": "Hình ngôi sao ở giữa mặt trống tượng trưng cho gì?",
+    "actual_rewrite": "Hình ngôi sao ở giữa mặt trống đồng Đông Sơn tượng trưng cho gì?",
+    "scores": {
+      "coreference": 5,
+      "intent": 5,
+      "noise": 5,
+      "no_hallucination": 5
+    },
+    "reason": "Bổ sung ngữ cảnh 'trống đồng Đông Sơn' chính xác."
+  }
+]

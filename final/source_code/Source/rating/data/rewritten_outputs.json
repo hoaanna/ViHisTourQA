@@ -1,0 +1,177 @@
+[
+  {
+    "id": 1,
+    "history": "User: Ai là người chỉ huy chiến dịch Điện Biên Phủ? | Bot: Đó là Đại tướng Võ Nguyên Giáp.",
+    "original_query": "Ông ấy sinh năm bao nhiêu?",
+    "golden_rewrite": "Năm sinh của Đại tướng Võ Nguyên Giáp",
+    "actual_rewrite": "Đại tướng Võ Nguyên Giáp sinh năm bao nhiêu?"
+  },
+  {
+    "id": 2,
+    "history": "User: Mình muốn đi du lịch Sapa vào tháng 12. | Bot: Tháng 12 Sapa rất lạnh và có thể có tuyết.",
+    "original_query": "Vé cáp treo lên đỉnh Fansipan giá thế nào?",
+    "golden_rewrite": "Giá vé cáp treo Fansipan Sapa tháng 12",
+    "actual_rewrite": "Vé cáp treo lên đỉnh Fansipan ở Sapa giá thế nào?"
+  },
+  {
+    "id": 3,
+    "history": "User: Nhà Lý dời đô về Thăng Long năm nào? | Bot: Năm 1010.",
+    "original_query": "Trước đó kinh đô nằm ở đâu?",
+    "golden_rewrite": "Kinh đô của Nhà Lý trước khi dời về Thăng Long",
+    "actual_rewrite": "Trước khi dời đô về Thăng Long năm 1010, kinh đô của nhà Lý nằm ở đâu?"
+  },
+  {
+    "id": 4,
+    "history": "User: Giới thiệu cho mình về ẩm thực Huế. | Bot: Huế nổi tiếng với bún bò, cơm hến, bánh bèo...",
+    "original_query": "Địa chỉ quán bún bò ngon ở đó?",
+    "golden_rewrite": "Địa chỉ quán bún bò ngon tại Huế",
+    "actual_rewrite": "Địa chỉ quán bún bò ngon ở Huế?"
+  },
+  {
+    "id": 5,
+    "history": "User: Sự tích Hồ Gươm liên quan đến vua nào? | Bot: Vua Lê Lợi và rùa thần.",
+    "original_query": "Thế thanh kiếm đó tên là gì?",
+    "golden_rewrite": "Tên thanh kiếm trong sự tích Hồ Gươm của vua Lê Lợi",
+    "actual_rewrite": "Thanh kiếm trong sự tích Hồ Gươm tên là gì?"
+  },
+  {
+    "id": 6,
+    "history": "User: Biển Nha Trang có đẹp không? | Bot: Rất đẹp, nước trong xanh.",
+    "original_query": "So với Phú Quốc thì sao?",
+    "golden_rewrite": "So sánh vẻ đẹp biển Nha Trang và Phú Quốc",
+    "actual_rewrite": "So sánh biển Nha Trang với biển Phú Quốc thì sao?"
+  },
+  {
+    "id": 7,
+    "history": "User: Mình đang ở Hà Nội, muốn đi Tràng An (Ninh Bình). | Bot: Bạn có thể đi xe khách hoặc tàu hỏa.",
+    "original_query": "Đi xe máy mất bao lâu?",
+    "golden_rewrite": "Thời gian đi xe máy từ Hà Nội đến Tràng An Ninh Bình",
+    "actual_rewrite": "Đi xe máy từ Hà Nội đến Tràng An (Ninh Bình) mất bao lâu?"
+  },
+  {
+    "id": 8,
+    "history": "User: Hoàng thành Thăng Long mở cửa giờ nào? | Bot: Từ 8h00 đến 17h00 hàng ngày.",
+    "original_query": "Giá vé vào cửa cho sinh viên?",
+    "golden_rewrite": "Giá vé tham quan Hoàng thành Thăng Long cho sinh viên",
+    "actual_rewrite": "Giá vé vào cửa Hoàng thành Thăng Long cho sinh viên?"
+  },
+  {
+    "id": 9,
+    "history": "User: Kể về chiến thắng Bạch Đằng năm 938. | Bot: Ngô Quyền đã đánh bại quân Nam Hán.",
+    "original_query": "Chiến thuật cọc gỗ được dùng như thế nào?",
+    "golden_rewrite": "Chiến thuật cọc gỗ trong chiến thắng Bạch Đằng năm 938",
+    "actual_rewrite": "Chiến thuật cọc gỗ trong trận Bạch Đằng năm 938 được dùng như thế nào?"
+  },
+  {
+    "id": 10,
+    "history": "User: Đà Lạt và Tam Đảo đều mát mẻ. | Bot: Đúng vậy.",
+    "original_query": "Chỗ nào gần Hà Nội hơn?",
+    "golden_rewrite": "Đà Lạt hay Tam Đảo gần Hà Nội hơn",
+    "actual_rewrite": "Tam Đảo và Đà Lạt, chỗ nào gần Hà Nội hơn?"
+  },
+  {
+    "id": 11,
+    "history": "User: Tìm khách sạn 5 sao ở Đà Nẵng. | Bot: Gợi ý InterContinental, Furama...",
+    "original_query": "Ý mình là resort sát biển cơ",
+    "golden_rewrite": "Resort 5 sao sát biển tại Đà Nẵng",
+    "actual_rewrite": "Tìm resort sát biển 5 sao ở Đà Nẵng."
+  },
+  {
+    "id": 12,
+    "history": "User: Nhà Nguyễn kết thúc năm nào? | Bot: Năm 1945 khi vua Bảo Đại thoái vị.",
+    "original_query": "Mùa thu Hà Nội có gì đẹp?",
+    "golden_rewrite": "Cảnh đẹp mùa thu Hà Nội",
+    "actual_rewrite": "Mùa thu Hà Nội có gì đẹp?"
+  },
+  {
+    "id": 13,
+    "history": "User: Dinh Độc Lập nằm ở đâu? | Bot: Ở Quận 1, TP.HCM.",
+    "original_query": "Ngày xưa nó tên là gì?",
+    "golden_rewrite": "Tên gọi cũ của Dinh Độc Lập",
+    "actual_rewrite": "Ngày xưa Dinh Độc Lập tên là gì?"
+  },
+  {
+    "id": 14,
+    "history": "User: Mình đi Hội An 3 ngày 2 đêm. | Bot: Bạn nên đi phố cổ, biển An Bàng.",
+    "original_query": "Buổi tối nên làm gì?",
+    "golden_rewrite": "Hoạt động vui chơi buổi tối tại Hội An",
+    "actual_rewrite": "Buổi tối ở Hội An nên làm gì?"
+  },
+  {
+    "id": 15,
+    "history": "User: Địa đạo Củ Chi dài bao nhiêu? | Bot: Khoảng 250km đường hầm.",
+    "original_query": "Người dân sống dưới đó như thế nào?",
+    "golden_rewrite": "Cuộc sống của người dân dưới địa đạo Củ Chi trong chiến tranh",
+    "actual_rewrite": "Người dân sống dưới địa đạo Củ Chi như thế nào?"
+  },
+  {
+    "id": 16,
+    "history": "User: Có nên đi Phú Quý tháng 10 không? | Bot: Tháng 10 biển thường động, sóng lớn.",
+    "original_query": "Thế tháng nào biển êm nhất?",
+    "golden_rewrite": "Thời điểm biển êm nhất để đi du lịch đảo Phú Quý",
+    "actual_rewrite": "Tháng nào biển ở Phú Quý êm nhất?"
+  },
+  {
+    "id": 17,
+    "history": "User: Nhã nhạc cung đình Huế là di sản loại gì? | Bot: Di sản văn hóa phi vật thể.",
+    "original_query": "Nó được UNESCO công nhận năm nào?",
+    "golden_rewrite": "Năm Nhã nhạc cung đình Huế được UNESCO công nhận",
+    "actual_rewrite": "Nhã nhạc cung đình Huế được UNESCO công nhận năm nào?"
+  },
+  {
+    "id": 18,
+    "history": "User: Tìm tour du thuyền Vịnh Hạ Long. | Bot: Có nhiều loại tour 2 ngày 1 đêm.",
+    "original_query": "Loại nào giá dưới 3 triệu mà bao gồm ăn uống ấy",
+    "golden_rewrite": "Tour du thuyền Vịnh Hạ Long giá dưới 3 triệu bao gồm ăn uống",
+    "actual_rewrite": "Loại tour du thuyền Vịnh Hạ Long nào có giá dưới 3 triệu và bao gồm ăn uống?"
+  },
+  {
+    "id": 19,
+    "history": "User: Vua Quang Trung và Nguyễn Huệ có phải là một không? | Bot: Đúng, là một người.",
+    "original_query": "Ông ấy mất năm bao nhiêu tuổi?",
+    "golden_rewrite": "Vua Quang Trung mất năm bao nhiêu tuổi",
+    "actual_rewrite": "Vua Quang Trung mất năm bao nhiêu tuổi?"
+  },
+  {
+    "id": 20,
+    "history": "User: Cho mình thông tin về đèo Hải Vân. | Bot: Đèo nằm giữa Huế và Đà Nẵng.",
+    "original_query": "Không, mình muốn hỏi về đèo Mã Pí Lèng",
+    "golden_rewrite": "Thông tin về đèo Mã Pí Lèng",
+    "actual_rewrite": "Cho mình thông tin về đèo Mã Pí Lèng."
+  },
+  {
+    "id": 21,
+    "history": "User: Tại sao gọi là 'Thành phố Hoa Phượng Đỏ'? | Bot: Vì trồng nhiều hoa phượng.",
+    "original_query": "Đó là thành phố nào?",
+    "golden_rewrite": "Thành phố nào được gọi là Thành phố Hoa Phượng Đỏ",
+    "actual_rewrite": "Thành phố Hoa Phượng Đỏ là thành phố nào?"
+  },
+  {
+    "id": 22,
+    "history": "User: Sự tích bánh chưng bánh giầy. | Bot: Liên quan đến hoàng tử Lang Liêu.",
+    "original_query": "Vị vua nào đã ra đề thi đó?",
+    "golden_rewrite": "Vị vua Hùng nào đã ra đề thi làm bánh chưng bánh giầy",
+    "actual_rewrite": "Vị vua nào đã ra đề thi làm bánh chưng bánh giầy?"
+  },
+  {
+    "id": 23,
+    "history": "User: Hà Nội có món gì đặc biệt ngoài phở không? | Bot: Có bún chả, chả cá Lã Vọng.",
+    "original_query": "Chả cá làm từ cá gì?",
+    "golden_rewrite": "Nguyên liệu cá làm món chả cá Lã Vọng Hà Nội",
+    "actual_rewrite": "Chả cá Lã Vọng làm từ cá gì?"
+  },
+  {
+    "id": 24,
+    "history": "User: Hang Sơn Đoòng nằm ở tỉnh nào? | Bot: Tỉnh Quảng Bình.",
+    "original_query": "Nó có phải hang lớn nhất thế giới không?",
+    "golden_rewrite": "Hang Sơn Đoòng có phải là hang động lớn nhất thế giới không",
+    "actual_rewrite": "Hang Sơn Đoòng có phải hang lớn nhất thế giới không?"
+  },
+  {
+    "id": 25,
+    "history": "User: Trống đồng Đông Sơn có ý nghĩa gì? | Bot: Biểu tượng văn hóa của người Việt cổ.",
+    "original_query": "Hình ngôi sao ở giữa mặt trống tượng trưng cho gì?",
+    "golden_rewrite": "Ý nghĩa hình ngôi sao giữa mặt trống đồng Đông Sơn",
+    "actual_rewrite": "Hình ngôi sao ở giữa mặt trống đồng Đông Sơn tượng trưng cho gì?"
+  }
+]
